@@ -35,10 +35,11 @@ h1 {
   margin: 1rem;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+  animation: wave 0.2s, textflickerwhite 0.003s infinite alternate;
 }
 
-h1, h2, h3, h4, h5, h6, p, span, a, li {
-  animation: textflickerwhite 0.003s infinite alternate ease-in-out;
+h2, h3, h4, h5, h6, p, span, a, li {
+  animation: textflickerwhite 0.003s infinite alternate;
 }
 
 a {
@@ -78,6 +79,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 @keyframes wave {
