@@ -5,8 +5,8 @@ function Root() {
 
   return (
     <>
-      <Outlet />
       <Navbar />
+      <Outlet />
     </>
   )
 }

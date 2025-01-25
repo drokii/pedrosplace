@@ -9,8 +9,8 @@ const Navbar: React.FC = () => {
                 <li className={window.location.pathname === '/' ? 'active' : ''}>
                     <Link to="/">Home</Link>
                 </li>
-                <li className={window.location.pathname === '/about' ? 'active' : ''}>
-                    <Link to="/about">About</Link>
+                <li className={window.location.pathname === '/skills' ? 'active' : ''}>
+                    <Link to="/resume">Resume</Link>
                 </li>
                 <li className={window.location.pathname === '/contact' ? 'active' : ''}>
                     <Link to="/contact">Contact</Link>

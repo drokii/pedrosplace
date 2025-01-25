@@ -9,13 +9,15 @@
 }
 
 
-:root {
+#root {
   font-family: 'Sevastopol', sans-serif;
+  height: 100vh;
+  width: 100vw;
+  padding-left: 1em;
   line-height: 1.5;
   font-weight: 400;
   color: white;
-  background-color: #070707e3;
-  text-align: center;
+  background-color: #070707ee;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -32,7 +34,7 @@ h1 {
   font-weight: 400;
   font-size: 5rem;
   line-height: 1.1;
-  margin: 1rem;
+  margin: 0.1rem;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   animation: wave 0.2s, textflickerwhite 0.003s infinite alternate;
@@ -40,6 +42,7 @@ h1 {
 
 h2, h3, h4, h5, h6, p, span, a, li {
   animation: textflickerwhite 0.003s infinite alternate;
+  margin: 0.1rem;
 }
 
 a {
@@ -55,9 +58,9 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #070707ee;
 }
 
 button {
@@ -79,13 +82,6 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 @keyframes wave {
