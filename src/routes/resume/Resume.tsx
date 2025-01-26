@@ -5,7 +5,9 @@ export default function Resume() {
     return (
         <>
             <h1><Typewriter text="Resume" /></h1>
+            <h3><Typewriter text="Currently working @ codecentric as a Fullstack Software Consultant =)"/></h3>
             <div className="resume-container">
+            <h2><Typewriter text="Experience"/></h2>
                 <div className="resume-item">
                     <h3><u><Typewriter text="Mass IoT Messaging Management @ codecentric during 01/2024 until 12/2024" speed={PARAGRAPH_SPEED} delay={PRIMARY_CONTENT_DELAY} /></u></h3>
                     <ul>
@@ -46,7 +48,7 @@ export default function Resume() {
                                 delay={PRIMARY_CONTENT_DELAY} />
                         </li>
                         <li>
-                            <Typewriter text="Implemented CI/CD pipeline based on Gitlab on older projects"
+                            <Typewriter text="Implemented CI/CD pipeline based on Gitlab on older projects."
                                 speed={PARAGRAPH_SPEED}
                                 delay={PRIMARY_CONTENT_DELAY} />
                         </li>
