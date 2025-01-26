@@ -10,7 +10,7 @@ export default function Resume() {
                     <h3><u><Typewriter text="Mass IoT Messaging Management @ codecentric during 01/2024 until 12/2024" speed={PARAGRAPH_SPEED} delay={PRIMARY_CONTENT_DELAY} /></u></h3>
                     <ul>
                         <li>
-                            <Typewriter text="As member of a platform team, managed and developed on a complex, big scale Azure Cloud messaging software for an agro-tech costumer"
+                            <Typewriter text="As member of a platform team, managed and developed on a complex, big scale Azure Cloud messaging software for an agro-tech customer."
                                 speed={PARAGRAPH_SPEED}
                                 delay={PRIMARY_CONTENT_DELAY} />
                         </li>
