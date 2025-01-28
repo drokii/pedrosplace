@@ -23,10 +23,12 @@ const router = createBrowserRouter([
       },
     ]
   },
-]);
+],
+  { basename: "/pedrosplace" }
+);
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>,
 )
