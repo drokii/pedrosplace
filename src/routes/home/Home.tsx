@@ -12,7 +12,8 @@ export default function Home() {
                  and what I'm capable of." speed={PARAGRAPH_SPEED} delay={PRIMARY_CONTENT_DELAY} />
             </p>
             <p>
-                
+                <a href="https://www.linkedin.com/in/pedro-marques-706710164/">☞<u>  Message me on LinkedIn </u></a>
+                <br /><a href="https://github.com/drokii">☞<u> Follow me on Github </u></a>
             </p>
         </>
     )
